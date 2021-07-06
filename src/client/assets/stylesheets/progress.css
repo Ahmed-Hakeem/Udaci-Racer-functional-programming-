@@ -1,0 +1,51 @@
+/* PROGRESS PAGE SPECIFIC STYLES */
+
+/* -------------------  MOBILE  --------------------- */
+header {
+  background-image: url("../images/backGround.jpg");
+}
+
+main#two-columns {
+  margin: 50px 0;
+  display: flex;
+}
+
+main#two-columns section {
+  max-width: 50vw;
+}
+
+section#accelerate button {
+  height: 300px;
+  width: 300px;
+  margin: 30px auto;
+  border-radius: 180%;
+  background-color: green;
+  border-color: rgb(14, 166, 6);
+  cursor: pointer;
+    font-size:1rem
+}
+
+#big-numbers {
+  font-weight: bolder;
+  font-size: 70px;
+}
+
+.images {
+  display: block;
+  width: 100px;
+  height: 80px;
+}
+
+/* -------------------  TABLET  --------------------- */
+@media (min-width: 768px) {
+}
+
+/* -------------------  DESKTOP  -------------------- */
+
+@media (min-width: 1224px) {
+}
+
+/* -------------------  LARGE SCREENS  -------------- */
+
+@media (min-width: 1824px) {
+}
